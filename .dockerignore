@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Data files
+backend/data/raw/*.parquet
+backend/data/processed/*.parquet
+backend/data/*.db
+backend/data/*.duckdb
+
+# Models
+backend/models/*.pkl
+backend/models/*.joblib
+backend/models/metrics.json
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Documentation
+README.md
+QUICKSTART.md
+ENHANCED_DASHBOARD_GUIDE.md
+
+# Frontend
+frontend/
+scripts/
+
+# Docker
+Dockerfile
+.dockerignore

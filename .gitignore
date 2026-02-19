@@ -52,6 +52,9 @@ backend/models/*.json
 # Firebase
 .firebase/
 firebase-debug.log
+firebase-debug.*.log
+ui-debug.log
+.runtimeconfig.json
 
 # Testing
 .pytest_cache/
